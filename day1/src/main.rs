@@ -48,8 +48,7 @@ fn second(){
         }
         sum += parse_int(first_last(count));
     }
-
-    println!("{}", sum);
+    println!("Soltuion two total: {}", sum);
 }
 
 pub fn first_last(line: String) -> String {
